@@ -1,0 +1,503 @@
+﻿/*responsive start*/
+
+.RespNavCls {
+    overflow: hidden;
+}
+
+    .RespNavCls a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-size: 14px;
+        display: block;
+    }
+
+    .RespNavCls .backdiv a {
+        background-color: #6194bf;
+    }
+
+    .RespNavCls .home {
+        display: none;
+    }
+
+
+    .RespNavCls .active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .RespNavCls .icon {
+        display: none;
+    }
+
+    .RespNavCls .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+        .RespNavCls .dropdown .dropbtn {
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+    .RespNavCls .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+        .RespNavCls .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+    .RespNavCls a:hover, .dropdown:hover .dropbtn {
+        background-color: #555;
+        color: white;
+    }
+
+    .RespNavCls .dropdown-content a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .RespNavCls .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+@media screen and (max-width: 768px) {
+
+    .RespNavCls .dropdown .dropbtn {
+        display: none;
+    }
+
+    .RespNavCls .form-widgets {
+        display: none;
+    }
+
+    .RespNavCls .home {
+        display: none;
+    }
+
+    .RespNavCls a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .RespNavCls.responsive {
+        position: relative;
+    }
+
+    .RespNavCls .home {
+        display: block;
+    }
+
+    .RespNavCls .detail {
+        display: block;
+    }
+
+    .RespNavCls a {
+        display: none;
+    }
+
+    .RespNavCls.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .RespNavCls.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .RespNavCls.responsive .dropdown {
+        float: none;
+    }
+
+    .RespNavCls.responsive .form-widgets {
+        float: none;
+    }
+
+    .RespNavCls.responsive .dropdown-content {
+        position: relative;
+    }
+
+    .RespNavCls.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .RespNavCls.responsive .form-widgets {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/*responsive end*/
+
+
+/*responsive start*/
+
+.RespNavCls1 {
+    overflow: hidden;
+}
+
+    .RespNavCls1 a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 5px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .RespNavCls1 .backdiv a {
+        background-color: #6194bf;
+    }
+
+    .RespNavCls1 .home {
+        display: none;
+    }
+
+
+    .RespNavCls1 .active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .RespNavCls1 .icon {
+        display: none;
+    }
+
+    .RespNavCls1 .icon1 {
+        display: none;
+    }
+
+    .RespNavCls1 .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+        .RespNavCls1 .dropdown .dropbtn {
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+    .RespNavCls1 .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+        .RespNavCls1 .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+    .RespNavCls1 a:hover, .dropdown:hover .dropbtn {
+        background-color: #555;
+        color: white;
+    }
+
+    .RespNavCls1 .dropdown-content a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .RespNavCls1 .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+@media screen and (max-width: 768px) {
+
+    .RespNavCls1 .dropdown .dropbtn {
+        display: none;
+    }
+
+    .RespNavCls1 .form-widgets {
+        display: none;
+    }
+
+    .RespNavCls1 .home {
+        display: none;
+    }
+
+    .RespNavCls1 a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .RespNavCls1.responsive {
+        position: relative;
+    }
+
+    .RespNavCls1 .home {
+        display: block;
+    }
+
+    .RespNavCls1 .detail {
+        display: block;
+    }
+
+    .RespNavCls1 a {
+        display: none;
+    }
+
+    .RespNavCls1.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .RespNavCls1.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .RespNavCls1.responsive .dropdown {
+        float: none;
+    }
+
+    .RespNavCls1.responsive .form-widgets {
+        float: none;
+    }
+
+    .RespNavCls1.responsive .dropdown-content {
+        position: relative;
+    }
+
+    .RespNavCls1.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .RespNavCls1.responsive .form-widgets {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .RespNavCls1.responsive .btn-group-vertical > .btn-group:after, .btn-group-vertical > .btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+        display: none;
+        content: " ";
+    }
+}
+
+/*responsive end*/
+
+
+/*responsive start*/
+
+.RespNavCls2 {
+    overflow: hidden;
+}
+
+    .RespNavCls2 a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 5px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .RespNavCls2 .backdiv a {
+        background-color: #6194bf;
+    }
+
+    .RespNavCls2 .home {
+        display: none;
+    }
+
+
+    .RespNavCls2 .active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .RespNavCls2 .icon {
+        display: none;
+    }
+
+
+
+    .RespNavCls2 .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+        .RespNavCls2 .dropdown .dropbtn {
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+    .RespNavCls2 .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+        .RespNavCls2 .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+    .RespNavCls2 a:hover, .dropdown:hover .dropbtn {
+        background-color: #555;
+        color: white;
+    }
+
+    .RespNavCls2 .dropdown-content a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .RespNavCls2 .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+@media screen and (max-width: 768px) {
+
+    .RespNavCls2 .dropdown .dropbtn {
+        display: none;
+    }
+
+    .RespNavCls2 .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-7, .col-lg-8, .col-lg-10 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .RespNavCls2 li {
+        display: none;
+    }
+
+    .RespNavCls2 .k-treeview .k-item {
+        display: none;
+    }
+
+    .RespNavCls2 .well1 {
+        background-color: #a0c4e3;
+    }
+
+    .RespNavCls2 .home {
+        display: none;
+    }
+
+    .RespNavCls2 a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .RespNavCls2.responsive {
+        position: relative;
+    }
+
+    .RespNavCls2 .home {
+        display: block;
+    }
+
+    .RespNavCls2 .detail {
+        display: block;
+    }
+
+    .RespNavCls2 a {
+        display: none;
+    }
+
+    .RespNavCls2.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .RespNavCls2.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .RespNavCls2.responsive .dropdown {
+        float: none;
+    }
+
+    .RespNavCls2.responsive li {
+        float: none;
+    }
+
+    .RespNavCls2.responsive .dropdown-content {
+        position: relative;
+    }
+
+    .RespNavCls2.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .RespNavCls2.responsive li {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .RespNavCls2.responsive .k-treeview .k-item {
+        display: block;
+    }
+}
+
+/*responsive end*/

@@ -1,0 +1,668 @@
+@font-face {
+    font-family: "Kendo UI";
+    src: url("http://cdn.kendostatic.com/2013.3.1030/styles/images/kendoui.woff") format("woff"), url("http://cdn.kendostatic.com/2013.3.1030/styles/images/kendoui.ttf") format("truetype");
+}
+
+body:before {
+    font-family: "Kendo UI";
+    content: "\a0";
+    font-size: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+
+ 
+header {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #76abd9;
+    font-weight:bold;
+}
+
+.menuoptions {
+    margin-top: 45px;
+}
+
+header h1, header button {
+        display: inline-block;
+        vertical-align: middle;
+}
+
+    header .container h1 {
+        margin: 0;
+        font-size: 21px;
+        line-height: 65px;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    header label {
+        /*border-style: solid;
+        border-color: #636363;
+        border-width: 0 0 0 1px;*/
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+
+    header .container {
+        position: relative;
+    }
+
+    header .description {
+        text-transform: uppercase;
+        color: black;
+        font-size: 10px;
+        line-height: 29px;
+    }
+
+    header .k-dropdown,
+    header #font-size-value {
+        font-size: 18px;
+        line-height: 45px;
+        margin-bottom: 9px;
+    }
+
+    header .k-dropdown {
+        width: 100%;
+    }
+
+    header .k-dropdown-wrap {
+        background-image: none !important;
+    }
+
+        header .k-dropdown,
+        header .k-dropdown-wrap.k-state-default {
+            background-color: transparent;
+            border-color: #5c5c5c;
+            border-radius: 0;
+        }
+
+        header .k-dropdown-wrap.k-state-hover,
+        header .k-dropdown-wrap.k-state-active,
+        header .k-dropdown-wrap.k-state-focused {
+            background-color: lightgrey;
+        }
+
+        header .k-dropdown-wrap.k-state-focused {
+            box-shadow: none;
+        }
+
+    header .k-dropdown .k-input {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: auto;
+        text-indent: 14px;
+    }
+
+    header .k-dropdown .k-input,
+    header .k-dropdown-wrap .k-select {
+        line-height: 45px;
+    }
+
+    header .k-dropdown .k-i-arrow-s {
+        background-image: url("http://cdn.kendostatic.com/2013.2.918/styles/Bootstrap/sprite.png");
+        background-position: -16px -32px;
+    }
+
+    header .k-dropdown-wrap.k-state-default .k-input {
+        color: black;
+    }
+
+.k-popup.ra-list {
+    background-color: lightgrey;
+    border-color: #5c5c5c;
+    color: black;
+    padding: 0;
+    border-radius: 0;
+}
+
+    .k-popup.ra-list .k-state-hover,
+    .k-popup.ra-list .k-state-selected,
+    .k-popup.ra-list .k-state-focused {
+        background-image: none;
+        background-color: #555;
+        box-shadow: none;
+        color: #fff;
+        border-color: #555;
+    }
+
+    .k-popup.ra-list .k-item {
+        border-radius: 0;
+        text-indent: 7px;
+    }
+
+#configure {
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-width: 0 0 0 1px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
+#demo {
+    padding-top: 46px;
+}
+
+#menu {
+    margin-bottom: 30px;
+}
+
+#profile {
+    position: relative;
+}
+
+.ra-well-title {
+    font-size: 1.2857em;
+    line-height: 1.2857em;
+    border-bottom: 1px solid #e7e7e7;
+    margin: -5px -19px 0.8333em;
+    padding: 0 19px 0.7222em;
+}
+
+.ra-avatar {
+    border: 1px solid #e7e7e7;
+    border-radius: 2px;
+}
+
+.ra-first-name {
+    display: block;
+    margin-top: 0.8571em;
+}
+
+.ra-last-name {
+    display: block;
+    font-size: 1.7143em;
+    line-height: 1.3em;
+}
+
+.ra-position {
+    font-size: 0.8571em;
+    color: #999;
+    padding-bottom: 2em;
+}
+
+.form-group .k-widget,
+.form-group .k-textbox {
+    width: 100%;
+    padding: 4px;
+}
+
+.buttons-wrap {
+    border-top: 1px solid #e7e7e7;
+    padding-top: .5em;
+    text-align: right;
+}
+
+.ra-section {
+    margin-bottom: 20px;
+}
+
+.ra-well-overlay {
+    margin: -16px -20px -19px;
+}
+
+#tabstrip .k-content {
+    min-height: 156px;
+}
+
+#tabstrip .k-chart {
+    height: 156px;
+}
+
+#tabstrip .k-content {
+    padding: 1px;
+}
+
+#tabstrip-4 {
+    text-align: center;
+}
+
+#tabstrip .km-icon:after {
+    font: 1.3em/1em "Kendo UI" !important;
+}
+
+.revenue:after {
+    content: "\E08C";
+}
+
+.spd:after {
+    content: "\E04B";
+}
+
+.spr:after {
+    content: "\E050";
+}
+
+.share:after {
+    content: "\E04E";
+}
+
+#tabstrip .k-tabstrip-items span {
+    float: left;
+    line-height: 1.3em;
+    vertical-align: middle;
+}
+
+#tabstrip .k-tabstrip-items .hidden-xs {
+    margin-left: 4px;
+}
+
+.market-donut {
+    display: inline-block;
+    width: 170px;
+}
+
+#panelbar .k-content {
+    padding: 1em;
+}
+
+#panelbar ul {
+    margin-bottom: 10px;
+}
+
+#listview {
+    list-style-type: none;
+    padding: 0 0 15px;
+}
+
+    #listview figure {
+        border: 1px solid #e7e7e7;
+        border-radius: 3px;
+        padding: 5px;
+        margin-top: 15px;
+    }
+
+figure h4 {
+    font-size: 1.15em;
+}
+
+figure p.hidden-sm {
+    min-height: 80px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8571em;
+ }
+
+header .container h1.visible-sm {
+    padding-top: 10px;
+    line-height: 33px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .k-menu.k-menu-horizontal .k-item {
+        float: none;
+    }
+
+    header .container {
+        padding-right: 0;
+    }
+
+        header .container h1 {
+            padding-top: 0;
+            line-height: 50px;
+        }
+
+    header label {
+        border-width: 1px 0 0 0;
+        display: block;
+    }
+
+    #configurator-wrap {
+        position: absolute;
+        overflow: hidden;
+        height: 260px;
+        right: 0;
+        top: 50px;
+        z-index: 1000;
+        padding: 0;
+        width: 320px;
+    }
+
+    #configurator {
+        background-color: #272727;
+        position: absolute;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.k-black body,
+.k-metroblack body,
+.k-black .well,
+.k-metroblack .well,
+.k-black .ra-well-title,
+.k-metroblack .ra-well-title,
+.k-black .buttons-wrap,
+.k-metroblack .buttons-wrap {
+    border-color: #444;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.k-highcontrast body,
+.k-highcontrast .well
+.k-highcontrast .ra-well-title,
+.k-highcontrast .buttons-wrap {
+    border-color: #664e62;
+    background-color: #2c232b;
+    color: #fff;
+}
+
+.k-moonlight body,
+.k-moonlight .well,
+.k-moonlight .ra-well-title,
+.k-moonlight .buttons-wrap {
+    border-color: #171e28;
+    background-color: #212a33;
+    color: #fff;
+}
+
+#configurator span.k-input {
+    height: auto;
+}
+
+.navbar-inverse {
+    background-color: #a0c4e3;
+    border-color: #3276b1;
+}
+
+#treeview .k-draghandle.k-state-selected:hover, .k-ghost-splitbar-horizontal, .k-ghost-splitbar-vertical, .k-list > .k-state-highlight, .k-list > .k-state-selected, .k-marquee-color, .k-panel > .k-state-selected, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-today.k-state-selected, .k-state-selected, .k-state-selected:link, .k-state-selected:visited, .k-tool.k-state-selected {
+    background-color: #6194bf !important;
+    /*color: black !important;*/
+}
+
+.confirm {
+    background-color: #f0ad4e !important;
+}
+
+.navbar-brand {
+     font-size: 20px;
+ }
+
+.navbar-inverse .navbar-brand {
+    color: #1d1c1c;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #1d1c1c;
+}
+
+/*.navbar-inverse .navbar-nav > li {
+    background-color: #76abd9;
+}*/
+
+.well {
+    padding: 2px;
+    margin-bottom: 5px;
+    background-color: #a0c4e3;
+}
+ 
+
+.well1 {
+    padding: 2px;
+    margin-bottom: 5px;
+    min-height: 50px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.form-group {
+    margin-bottom: 1px;
+}
+
+.k-widget.k-treeview {
+    color: black !important;
+}
+
+.filters {
+    font-size: 13px;
+    min-height: 50px;
+}
+
+#pageid {
+    padding-top: 4em;
+}
+
+.navbar-brand_highlight {
+    background: #6194bf;
+    border: 1px solid transparent;
+    margin-left: 10px 0;
+    border-radius: 8px;
+    min-height: 9px;
+}
+
+.menuoptions .navbar-toggle {
+    margin-top: 45px;
+}
+.glyphicon {
+    top: 2px;
+}
+
+.BacktoHome .glyphicon {
+    top: 2px;
+}
+
+ 
+.btn-group-lg > .btn, .btn-lg {
+     font-size: 14px;
+ }
+
+.k-tabstrip-items .k-item.k-state-active {
+    background: #7aadda !important;
+}
+
+#CH_TreeView {
+    overflow-y: scroll;
+    height: 430px;
+}
+
+#PY_TreeView {
+    overflow-y: scroll;
+    height: 430px;
+}
+#TC_TreeView {
+    overflow-y: scroll;
+    height: 430px;
+}
+#AQ_TreeView {
+    overflow-y: scroll;
+    height: 430px;
+}
+#CO_TreeView {
+    overflow-y: scroll;
+    height: 430px;
+}
+#DO_TreeView {
+    overflow-y: scroll;
+    height: 430px;
+}
+#TR_TreeView {
+    overflow-y: scroll;
+    height: 430px;
+}
+#RE_TreeView {
+    overflow-y: scroll;
+    height: 430px;
+}
+
+.ddl {
+    padding-bottom: 2em;
+    font-size: 12px;
+}
+
+
+
+.rddldiv {
+    padding-bottom: 1em;
+    font-size: 12px;
+}
+
+.rddl {
+    width: 400px;
+}
+
+.well2 {
+    padding: 2px;
+    margin-bottom: 5px;
+    min-height: 50px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.reconfontsize {
+    font-size: 10px !important;
+}
+
+.k-grid {
+    font-size: 12px;
+}
+
+
+#InterestId {
+    background-color:yellow;
+}
+
+
+#BottomMessageId {
+    background-color: greenyellow;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#ReconMessageId {
+    background-color: greenyellow;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+
+#ValidationMessageId {
+    background-color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.cellhighlight {
+    color: red;
+    font-weight: bold;
+}
+
+.cellborder {
+    border: 4px solid !important;
+    border-color: red !important;
+}
+
+.cellhighlight1 {
+    background-color: greenyellow;
+}
+
+.cellhighlight2 {
+    background-color: yellow;
+}
+.cellhighlight3 {
+    background-color: orange;
+}
+
+
+.cellhighlight4 {
+    background-color: bisque;
+}
+
+.cellhighlight5 {
+    background-color: aqua;
+}
+
+ 
+.k-grid-filter.k-state-active {
+    background-color: yellow !important;
+}
+
+.k-filter-row th, .k-grid-header th.k-header {
+    font-weight: bold !important;
+}
+
+.k-grid .k-grid-header .k-header .k-link {
+    height: auto;
+}
+
+.k-grid .k-grid-header .k-header {
+    white-space: normal;
+}
+#AssmntAddPropertyFormId .form-group {
+    padding-bottom: 15px;
+}
+
+.btn {
+    padding: 3px 12px !important;
+}
+
+
+#_CH_HoldingsTab_AddPropertyViewGrid .k-draghandle.k-state-selected:hover, .k-ghost-splitbar-horizontal, .k-ghost-splitbar-vertical, .k-list > .k-state-highlight, .k-list > .k-state-selected, .k-marquee-color, .k-panel > .k-state-selected, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-today.k-state-selected, .k-state-selected, .k-state-selected:link, .k-state-selected:visited, .k-tool.k-state-selected {
+    color: black !important;
+}
+
+#colorlabel label {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.colorlabelgroup {
+    margin-bottom: 8px;
+}
+
+.marginbottom {
+    margin-bottom: 5px;
+}
+
+#_CH_ReconTab_DetailViewCountGrid .k-state-selected {
+    color: red;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.DOFilter {
+    padding-top: 35px;
+}
+
+.CO_CompanyTypeDDL .k-dropdown {
+    width: 18.4em;
+}
+
+
+
+.CO_CompanyDDL .k-dropdown {
+    width: 28.4em;
+}
+
+.DO_textarea {
+    height: 80px;
+    width: 478px;
+    border-radius: 6px
+}
